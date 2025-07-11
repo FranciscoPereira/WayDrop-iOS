@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:WayDrop-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DesignSystem">
+   </FileRef>
+   <FileRef
+      location = "group:Welcome">
+   </FileRef>
+   <FileRef
+      location = "group:SignUp">
+   </FileRef>
+   <FileRef
+      location = "group:Login">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66ED21FC2E2136B2000D4820 /* Prefire in Frameworks */ = {isa = PBXBuildFile; productRef = 66ED21FB2E2136B2000D4820 /* Prefire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66D5FAF02E200CC3008BB619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D5FADA2E200CC2008BB619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D5FAE12E200CC2008BB619;
+			remoteInfo = "WayDrop-iOS";
+		};
+		66D5FAFA2E200CC3008BB619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D5FADA2E200CC2008BB619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D5FAE12E200CC2008BB619;
+			remoteInfo = "WayDrop-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66D5FAE22E200CC2008BB619 /* WayDrop-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WayDrop-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D5FAEF2E200CC3008BB619 /* WayDrop-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WayDrop-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D5FAF92E200CC3008BB619 /* WayDrop-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WayDrop-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		66D5FAE42E200CC2008BB619 /* WayDrop-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WayDrop-iOS";
+			sourceTree = "<group>";
+		};
+		66D5FAF22E200CC3008BB619 /* WayDrop-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WayDrop-iOSTests";
+			sourceTree = "<group>";
+		};
+		66D5FAFC2E200CC3008BB619 /* WayDrop-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WayDrop-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D5FADF2E200CC2008BB619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		66D5FAEC2E200CC3008BB619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		66D5FAF62E200CC3008BB619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				66ED21FC2E2136B2000D4820 /* Prefire in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D5FAD92E200CC2008BB619 = {
+			isa = PBXGroup;
+			children = (
+				66D5FAE42E200CC2008BB619 /* WayDrop-iOS */,
+				66D5FAF22E200CC3008BB619 /* WayDrop-iOSTests */,
+				66D5FAFC2E200CC3008BB619 /* WayDrop-iOSUITests */,
+				66D5FAE32E200CC2008BB619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66D5FAE32E200CC2008BB619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D5FAE22E200CC2008BB619 /* WayDrop-iOS.app */,
+				66D5FAEF2E200CC3008BB619 /* WayDrop-iOSTests.xctest */,
+				66D5FAF92E200CC3008BB619 /* WayDrop-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D5FAE12E200CC2008BB619 /* WayDrop-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D5FB032E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOS" */;
+			buildPhases = (
+				66D5FADE2E200CC2008BB619 /* Sources */,
+				66D5FADF2E200CC2008BB619 /* Frameworks */,
+				66D5FAE02E200CC2008BB619 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				66D5FAE42E200CC2008BB619 /* WayDrop-iOS */,
+			);
+			name = "WayDrop-iOS";
+			productName = "WayDrop-iOS";
+			productReference = 66D5FAE22E200CC2008BB619 /* WayDrop-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66D5FAEE2E200CC3008BB619 /* WayDrop-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D5FB062E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOSTests" */;
+			buildPhases = (
+				66D5FAEB2E200CC3008BB619 /* Sources */,
+				66D5FAEC2E200CC3008BB619 /* Frameworks */,
+				66D5FAED2E200CC3008BB619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D5FAF12E200CC3008BB619 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66D5FAF22E200CC3008BB619 /* WayDrop-iOSTests */,
+			);
+			name = "WayDrop-iOSTests";
+			productName = "WayDrop-iOSTests";
+			productReference = 66D5FAEF2E200CC3008BB619 /* WayDrop-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66D5FAF82E200CC3008BB619 /* WayDrop-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D5FB092E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOSUITests" */;
+			buildPhases = (
+				66D5FAF52E200CC3008BB619 /* Sources */,
+				66D5FAF62E200CC3008BB619 /* Frameworks */,
+				66D5FAF72E200CC3008BB619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D5FAFB2E200CC3008BB619 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66D5FAFC2E200CC3008BB619 /* WayDrop-iOSUITests */,
+			);
+			name = "WayDrop-iOSUITests";
+			packageProductDependencies = (
+				66ED21FB2E2136B2000D4820 /* Prefire */,
+			);
+			productName = "WayDrop-iOSUITests";
+			productReference = 66D5FAF92E200CC3008BB619 /* WayDrop-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D5FADA2E200CC2008BB619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					66D5FAE12E200CC2008BB619 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					66D5FAEE2E200CC3008BB619 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66D5FAE12E200CC2008BB619;
+					};
+					66D5FAF82E200CC3008BB619 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66D5FAE12E200CC2008BB619;
+					};
+				};
+			};
+			buildConfigurationList = 66D5FADD2E200CC2008BB619 /* Build configuration list for PBXProject "WayDrop-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D5FAD92E200CC2008BB619;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				66CC936F2E200F0A00422996 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				66ED21FA2E2136B2000D4820 /* XCRemoteSwiftPackageReference "Prefire" */,
+				66ED21FD2E2161E5000D4820 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 66D5FAE32E200CC2008BB619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D5FAE12E200CC2008BB619 /* WayDrop-iOS */,
+				66D5FAEE2E200CC3008BB619 /* WayDrop-iOSTests */,
+				66D5FAF82E200CC3008BB619 /* WayDrop-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D5FAE02E200CC2008BB619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		66D5FAED2E200CC3008BB619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		66D5FAF72E200CC3008BB619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D5FADE2E200CC2008BB619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		66D5FAEB2E200CC3008BB619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		66D5FAF52E200CC3008BB619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D5FAF12E200CC3008BB619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D5FAE12E200CC2008BB619 /* WayDrop-iOS */;
+			targetProxy = 66D5FAF02E200CC3008BB619 /* PBXContainerItemProxy */;
+		};
+		66D5FAFB2E200CC3008BB619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D5FAE12E200CC2008BB619 /* WayDrop-iOS */;
+			targetProxy = 66D5FAFA2E200CC3008BB619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66D5FB012E200CC3008BB619 /* Debug configuration for PBXProject "WayDrop-iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D5FB022E200CC3008BB619 /* Release configuration for PBXProject "WayDrop-iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D5FB042E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94SBKMM3BG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66D5FB052E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94SBKMM3BG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66D5FB072E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOSTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayDrop-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WayDrop-iOS";
+			};
+			name = Debug;
+		};
+		66D5FB082E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOSTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayDrop-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WayDrop-iOS";
+			};
+			name = Release;
+		};
+		66D5FB0A2E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOSUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WayDrop-iOS";
+			};
+			name = Debug;
+		};
+		66D5FB0B2E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOSUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waydrop.WayDrop-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WayDrop-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D5FADD2E200CC2008BB619 /* Build configuration list for PBXProject "WayDrop-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D5FB012E200CC3008BB619 /* Debug configuration for PBXProject "WayDrop-iOS" */,
+				66D5FB022E200CC3008BB619 /* Release configuration for PBXProject "WayDrop-iOS" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		66D5FB032E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D5FB042E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOS" */,
+				66D5FB052E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOS" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		66D5FB062E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D5FB072E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOSTests" */,
+				66D5FB082E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOSTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		66D5FB092E200CC3008BB619 /* Build configuration list for PBXNativeTarget "WayDrop-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D5FB0A2E200CC3008BB619 /* Debug configuration for PBXNativeTarget "WayDrop-iOSUITests" */,
+				66D5FB0B2E200CC3008BB619 /* Release configuration for PBXNativeTarget "WayDrop-iOSUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66CC936F2E200F0A00422996 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.1;
+			};
+		};
+		66ED21FA2E2136B2000D4820 /* XCRemoteSwiftPackageReference "Prefire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BarredEwe/Prefire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+		66ED21FD2E2161E5000D4820 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.18.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66ED21FB2E2136B2000D4820 /* Prefire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66ED21FA2E2136B2000D4820 /* XCRemoteSwiftPackageReference "Prefire" */;
+			productName = Prefire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 66D5FADA2E200CC2008BB619 /* Project object */;
+}
