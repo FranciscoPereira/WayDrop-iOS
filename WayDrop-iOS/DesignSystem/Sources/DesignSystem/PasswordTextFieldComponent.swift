@@ -1,6 +1,13 @@
+//
+//  PasswordTextFieldComponent.swift
+//  DesignSystem
+//
+//  Created by Francisco Pereira on 12/07/2025.
+//
 import SwiftUI
 
-public struct TextFieldComponent: View {
+public struct PasswordTextFieldComponent: View {
+    
     private let title: String
     @Binding private var text: String
     
@@ -19,12 +26,12 @@ public struct TextFieldComponent: View {
                     .font(.h3)
                 Spacer()
             }
-            TextField("", text: $text)
+            SecureField("", text: $text)
                 .frame(height: 50)
                 .background(Color.white)
                 .clipShape(Capsule())
                 .font(.body)
-                
+            
         }
         .padding(.horizontal)
     }
@@ -32,19 +39,19 @@ public struct TextFieldComponent: View {
 
 #if DEBUG
 #Preview {
-    TextFieldComponent_Preview()
+    PasswordTextFieldComponent_Preview()
 }
 
-struct TextFieldComponent_Preview: View {
-    var body: some View {
-        VStack {
-            TextFieldComponent(
-                title: "Title",
-                text: .constant("")
-            )
-            Spacer()
-        }
-        .background(Color.background)
+struct PasswordTextFieldComponent_Preview: View {
+var body: some View {
+    VStack {
+        PasswordTextFieldComponent(
+            title: "Password",
+            text: .constant("")
+        )
+        Spacer()
     }
+    .background(Color.background)
+}
 }
 #endif

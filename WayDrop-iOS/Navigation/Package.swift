@@ -4,28 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "Login",
-    defaultLocalization: "en",
+    name: "Navigation",
     platforms: [ .iOS(.v16) ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Login",
-            targets: ["Login"]),
-    ],
-    dependencies: [
-        .package(path: "../DesignSystem"),
+            name: "Navigation",
+            targets: ["Navigation"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Login",
-            dependencies: ["DesignSystem"]
-        ),
+            name: "Navigation"),
         .testTarget(
-            name: "LoginTests",
-            dependencies: ["Login"]
+            name: "NavigationTests",
+            dependencies: ["Navigation"]
         ),
     ]
 )

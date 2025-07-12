@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6662CAC72E21C4310083720C /* Welcome in Frameworks */ = {isa = PBXBuildFile; productRef = 6662CAC62E21C4310083720C /* Welcome */; };
+		6662CAC92E21C44D0083720C /* SignUp in Frameworks */ = {isa = PBXBuildFile; productRef = 6662CAC82E21C44D0083720C /* SignUp */; };
+		6662CACB2E21C4520083720C /* Login in Frameworks */ = {isa = PBXBuildFile; productRef = 6662CACA2E21C4520083720C /* Login */; };
+		6662CAF82E226D390083720C /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = 6662CAF72E226D390083720C /* Navigation */; };
 		66ED21FC2E2136B2000D4820 /* Prefire in Frameworks */ = {isa = PBXBuildFile; productRef = 66ED21FB2E2136B2000D4820 /* Prefire */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +59,10 @@
 		66D5FADF2E200CC2008BB619 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				6662CACB2E21C4520083720C /* Login in Frameworks */,
+				6662CAC92E21C44D0083720C /* SignUp in Frameworks */,
+				6662CAF82E226D390083720C /* Navigation in Frameworks */,
+				6662CAC72E21C4310083720C /* Welcome in Frameworks */,
 			);
 		};
 		66D5FAEC2E200CC3008BB619 /* Frameworks */ = {
@@ -71,12 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6662CAC52E21C4310083720C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66D5FAD92E200CC2008BB619 = {
 			isa = PBXGroup;
 			children = (
 				66D5FAE42E200CC2008BB619 /* WayDrop-iOS */,
 				66D5FAF22E200CC3008BB619 /* WayDrop-iOSTests */,
 				66D5FAFC2E200CC3008BB619 /* WayDrop-iOSUITests */,
+				6662CAC52E21C4310083720C /* Frameworks */,
 				66D5FAE32E200CC2008BB619 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +124,12 @@
 				66D5FAE42E200CC2008BB619 /* WayDrop-iOS */,
 			);
 			name = "WayDrop-iOS";
+			packageProductDependencies = (
+				6662CAC62E21C4310083720C /* Welcome */,
+				6662CAC82E21C44D0083720C /* SignUp */,
+				6662CACA2E21C4520083720C /* Login */,
+				6662CAF72E226D390083720C /* Navigation */,
+			);
 			productName = "WayDrop-iOS";
 			productReference = 66D5FAE22E200CC2008BB619 /* WayDrop-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -390,7 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,6 +588,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6662CAC62E21C4310083720C /* Welcome */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Welcome;
+		};
+		6662CAC82E21C44D0083720C /* SignUp */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SignUp;
+		};
+		6662CACA2E21C4520083720C /* Login */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Login;
+		};
+		6662CAF72E226D390083720C /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
 		66ED21FB2E2136B2000D4820 /* Prefire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66ED21FA2E2136B2000D4820 /* XCRemoteSwiftPackageReference "Prefire" */;

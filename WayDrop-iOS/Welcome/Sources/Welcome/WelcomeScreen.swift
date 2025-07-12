@@ -1,23 +1,36 @@
 import SwiftUI
+import DesignSystem
+import Navigation
 
-struct WelcomeScreen: View {
+public struct WelcomeScreen: View {
+    @EnvironmentObject private var router: Router
+    public init() {}
     
-    var body: some View {
-        NavigationStack {
-                VStack {
-                    Image(uiImage: .checkmark)
-                        .padding(.top, 200)
-                    Text("Welcome to")
-                    Text("WayDrop")
-                    Spacer()
-                    NavigationLink(destination: WelcomeScreen()) {
-                        Text("Sign Up")
-                    }
-                    NavigationLink(destination: WelcomeScreen()) {
-                        Text("Log In")
+    public var body: some View {
+        VStack {
+            Icons.main
+                .padding(.top, 200)
+            Text("Welcome to")
+                .font(.h2)
+                
+            Text("WayDrop")
+                .font(.h2)
+            Spacer()
+            VStack(spacing: Spacing.x8) {
+                NavigationLink(destination: WelcomeScreen()) {
+                    PrimaryButtonComponent(title: "Sign up") {
+                        router.navigate(to: .signup)
                     }
                 }
+                NavigationLink(destination: WelcomeScreen()) {
+                    SecondaryButtonComponent(title: "Log In") {
+                        router.navigate(to: .login)
+                    }
+                }
+            }
+            .padding(.horizontal)
         }
+        .background(Color.background)
     }
 }
 

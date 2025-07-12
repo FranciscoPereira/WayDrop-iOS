@@ -1,10 +1,18 @@
 import SwiftUI
 
-struct SecondaryButtonComponent: View {
-    let action: () -> Void
-    let title: String
+public struct SecondaryButtonComponent: View {
+    private let action: () -> Void
+    private let title: String
     
-    var body: some View {
+    public init(
+        title: String,
+        action: @escaping () -> Void
+    ) {
+        self.action = action
+        self.title = title
+    }
+    
+    public var body: some View {
             Button(action: action) {
                 Text(title)
                     .font(.h3)
@@ -26,8 +34,8 @@ struct SecondaryButtonComponent: View {
 #Preview {
     VStack {
         SecondaryButtonComponent(
-            action: {},
-            title: "Log In"
+            title: "Log In",
+            action: {}
         )
         .padding()
         Spacer()

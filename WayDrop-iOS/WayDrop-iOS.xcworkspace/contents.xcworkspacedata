@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Navigation">
+   </FileRef>
+   <FileRef
       location = "container:WayDrop-iOS.xcodeproj">
    </FileRef>
    <FileRef
